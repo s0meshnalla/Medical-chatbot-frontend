@@ -146,7 +146,7 @@ const ClinicList = ({ clinics }) => {
     return `https://www.google.com/maps/dir/?api=1&destination=${lat},${lon}`;
   };
 
-  // Check if clinics array contains error object
+ 
   const errorObj = clinics.find(clinic => clinic.error);
   
   if (errorObj) {
